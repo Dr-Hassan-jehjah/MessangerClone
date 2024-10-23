@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+.searchBar {
+    width: 100%;
+    position: relative;
+}
+.searchBar input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.05);
+    font-size: 17px;
+    letter-spacing: -0.41px;
+    padding: 6px 30px;
+    border-radius: 10px;
+    color: rgba(142, 142, 147, 1);
+}
+.icon {
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(142, 142, 147, 1);
+}

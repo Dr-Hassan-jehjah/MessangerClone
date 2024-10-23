@@ -1,0 +1,116 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.onlinePeople {
+    width: 100%;
+    padding: 14px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.onlinePeople .story {
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.onlinePeople .story p {
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.35);
+    letter-spacing: -0.08px;
+    text-wrap: nowrap;
+    text-align: center;
+}
+.story .icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.04);
+    border-radius: 50%;
+}
+.onlinePeople .person {
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.person img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.person p {
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.35);
+    letter-spacing: -0.08px;
+}
+
+.chats {
+    width: 100%;
+    padding: 14px 16px;
+}
+.chats ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.chats ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.info .infoImg {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.info .infoImg img {
+    width: 60px;
+    height: 60px;
+}
+.info .infoDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+.infoDetails .detailsName {
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: -0.4px;
+}
+.infoDetails .detailsMsg {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    letter-spacing: -0.15px;
+}
+.lstMsgStatus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgba(151, 151, 151, 1);
+}
+.lstMsgStatus .statusCircle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    border: 1px solid  rgba(151, 151, 151, 1);
+}
