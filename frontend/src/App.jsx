@@ -1,8 +1,10 @@
 import ChatsPage from "./pages/ChatsPage.jsx"
+import ChatPage from "./pages/ChatPage.jsx";
+
 function App() {
   return (
     <>
-      <ChatsPage></ChatsPage>
+      <ChatPage></ChatPage>
     </>
   )
 }

@@ -22,6 +22,14 @@ const OnlinePeople = () => {
             <img src="https://avatar.iran.liara.run/username?username=James+Taylor&background=f4d9b2&color=FF9800&size=40" alt="" />
             <p>Person</p>
         </div>
+        <div className={styles.person}>
+            <img src="https://avatar.iran.liara.run/username?username=James+Taylor&background=f4d9b2&color=FF9800&size=40" alt="" />
+            <p>Person</p>
+        </div>
+        <div className={styles.person}>
+            <img src="https://avatar.iran.liara.run/username?username=James+Taylor&background=f4d9b2&color=FF9800&size=40" alt="" />
+            <p>Person</p>
+        </div>
     </div>
   )
 }

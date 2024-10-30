@@ -9,6 +9,9 @@ const Chats = () => {
             <ChatItem></ChatItem>
             <ChatItem></ChatItem>
             <ChatItem></ChatItem>
+            <ChatItem></ChatItem>
+            <ChatItem></ChatItem>
+            <ChatItem></ChatItem>
 
         </ul>
     </div>
